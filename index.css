@@ -1,0 +1,59 @@
+#gameInputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gameInputs * {
+    flex: 0 0 48%;
+    margin: 10px auto;
+}
+
+#gameContainer {
+    display: none;
+    flex-direction: column;
+}
+
+#gameStatus {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+#game {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#game div {
+    border: 1px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startBtn,
+.resetBtn {
+    margin: 10px auto;
+    align-self: center;
+}
+
+@media (min-width: 426px) {
+    body {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 580px) {
+    body {
+        width: 60%;
+    }
+}
+
+
+@media (min-width: 769px) {
+    body {
+        width: 50%;
+    }
+}
